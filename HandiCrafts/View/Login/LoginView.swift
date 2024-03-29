@@ -96,7 +96,7 @@ struct LoginView: View {
                                     .padding(.vertical)
                                     .foregroundColor(Color("Default"))
                             }
-                            //.navigationBarBackButtonHidden(true)
+                           // .navigationBarBackButtonHidden(true)
                             
                         }
                         
@@ -118,6 +118,8 @@ struct LoginView: View {
             }
             .alert( isPresented: $showError){
                 Alert(title: Text(ServiceURL.AppName), message: Text(errorMessage), dismissButton: .default(Text("OK")))
+                
+                   
             }
             
             

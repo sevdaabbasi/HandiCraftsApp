@@ -20,7 +20,7 @@ struct SignUpView: View {
     @State private var userNameTextFieldVisible = false
 
     var body: some View {
-        NavigationStack {
+        
             ZStack {
                 Color(.white).edgesIgnoringSafeArea(.all)
                 VStack {
@@ -47,14 +47,7 @@ struct SignUpView: View {
                             .autocapitalization(.none)
                             .padding(.bottom, 10)
 
-                       /* PrimaryButton(action: {
-                            FirebaseManager.shared.auth.createUser(withEmail: txtEmail, password: txtPassword){
-                                result, error in
-                                if error == nil {
-                                    return
-                                }
-                            }
-                             }, title: "Sign Up") {}*/
+                      
                         Button {
                             FirebaseManager.shared.auth.createUser(withEmail: txtEmail, password: txtPassword){
                                 result, error in
@@ -77,7 +70,7 @@ struct SignUpView: View {
                         HStack {
                             Text("Already have an account?")
 
-                            // NavigationLink kullanarak SignIn butonuna basıldığında LoginView'e geçiş yap
+                           
                             NavigationLink(destination: LoginView()) {
                                     Text("Sign In")
                                         .font(.title2)
@@ -106,7 +99,7 @@ struct SignUpView: View {
             .alert(isPresented: $showError) {
                 Alert(title: Text(ServiceURL.AppName), message: Text(errorMessage), dismissButton: .default(Text("OK")))
             }
-        }
+        
     }
    
 }

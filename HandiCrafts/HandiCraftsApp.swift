@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct HandiCraftsApp: App {
+    @StateObject private var favoriteManager = FavoriteManager()
+    @StateObject private var cartManager = CartManager()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(favoriteManager)
+                .environmentObject(cartManager)
         }
     }
 }
