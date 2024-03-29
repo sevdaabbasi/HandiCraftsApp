@@ -14,6 +14,9 @@
 		6D1A93962BB7520600583EE0 /* HandiCraftsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A93952BB7520600583EE0 /* HandiCraftsTests.swift */; };
 		6D1A93A02BB7520600583EE0 /* HandiCraftsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A939F2BB7520600583EE0 /* HandiCraftsUITests.swift */; };
 		6D1A93A22BB7520600583EE0 /* HandiCraftsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A93A12BB7520600583EE0 /* HandiCraftsUITestsLaunchTests.swift */; };
+		6D1A93B12BB75A1E00583EE0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A93B02BB75A1E00583EE0 /* WelcomeView.swift */; };
+		6D1A93B32BB75A4100583EE0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A93B22BB75A4100583EE0 /* LoginView.swift */; };
+		6D1A93B52BB75A5400583EE0 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A93B42BB75A5400583EE0 /* SignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		6D1A939B2BB7520600583EE0 /* HandiCraftsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HandiCraftsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1A939F2BB7520600583EE0 /* HandiCraftsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandiCraftsUITests.swift; sourceTree = "<group>"; };
 		6D1A93A12BB7520600583EE0 /* HandiCraftsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandiCraftsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6D1A93B02BB75A1E00583EE0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		6D1A93B22BB75A4100583EE0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6D1A93B42BB75A5400583EE0 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		6D1A93832BB7520400583EE0 /* HandiCrafts */ = {
 			isa = PBXGroup;
 			children = (
+				6D1A93AE2BB75A0A00583EE0 /* View */,
 				6D1A93842BB7520400583EE0 /* HandiCraftsApp.swift */,
 				6D1A93862BB7520400583EE0 /* ContentView.swift */,
 				6D1A93882BB7520600583EE0 /* Assets.xcassets */,
@@ -125,6 +132,24 @@
 				6D1A93A12BB7520600583EE0 /* HandiCraftsUITestsLaunchTests.swift */,
 			);
 			path = HandiCraftsUITests;
+			sourceTree = "<group>";
+		};
+		6D1A93AE2BB75A0A00583EE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D1A93AF2BB75A1100583EE0 /* Login */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6D1A93AF2BB75A1100583EE0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6D1A93B02BB75A1E00583EE0 /* WelcomeView.swift */,
+				6D1A93B22BB75A4100583EE0 /* LoginView.swift */,
+				6D1A93B42BB75A5400583EE0 /* SignUpView.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1A93872BB7520400583EE0 /* ContentView.swift in Sources */,
+				6D1A93B52BB75A5400583EE0 /* SignUpView.swift in Sources */,
+				6D1A93B12BB75A1E00583EE0 /* WelcomeView.swift in Sources */,
+				6D1A93B32BB75A4100583EE0 /* LoginView.swift in Sources */,
 				6D1A93852BB7520400583EE0 /* HandiCraftsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
