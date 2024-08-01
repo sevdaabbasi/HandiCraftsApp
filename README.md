@@ -5,10 +5,15 @@ Uygulama, SwiftUI kullanarak geliştirilerek. Firebase altyapısını kullanmakt
 KULLANIM ALANLARI
 
 Kullanıcılar, el sanatları ürünlerini görüntüleyebilir ve inceleyebilir.
+
 Kullanıcılar üye olarak el sanatçılarına ait ürünleri satın alabilir.
+
 El sanatçıları kendi ürünlerini uygulama üzerinden sergileyebilir.
+
 Kullanıcılar favori ürünlerini belirleyebilir ve bu ürünleri daha sonra inceleyebilirler.
+
 Alışveriş sepeti üzerinden ürünleri satın alabilirler.
+
 Uygulama içindeki kategorilere göre el sanatları ürünlerini keşfedebilirler.
 
 
